@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <title>BrandaLoka</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="img/ico.png">
+        <link rel="stylesheet" href="css/circle.css">
+
+        <meta charset="utf-8">
+        <meta name="kewords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author"        content="Franco Nicolas Holzman">
+        <meta name="distribution" content="global"/>
+        <meta name="Robots" content="all, index, follow"/>
+
+    </head>
+    <body> 
+        <header id="header"  >
+          <div class="wrap" >
+                <div class="header_social" > 
+                        <br><br><br>
+                       <span><a href="" id="header_mac" style="text-decoration: none">    <h3><i>Our Work</i></h3> </a></span>
+                       <span><a href="" id="header_book" style="text-decoration: none">   <h3><i>What we do</i></h3> </a></span>
+                       <span><a href="" id="header_team" style="text-decoration: none">   <h3><i>Our team</i></h3> </a></span>
+                       <span><a href="" id="header_about" style="text-decoration: none">  <h3><i>About us</i></h3> </a></span>
+                       <span><a href="#contact" id="header_contact" style="text-decoration: none"><h3><i>Contact us</i></h3></a></span>
+                       <span><a href="https://www.facebook.com/" target="_blank" id="fb1">  </a></span>
+                       <span><a href="https://twitter.com/?lang=es" target="_blank" id="tw1">  </a></span>
+                       <span><a href="https://www.google.com.ar/" target="_blank" id="db1">  </a></span>
+                       <span><a href="https://plus.google.com/explore" target="_blank" id="g1">   </a></span>
+                       <span><a href="https://www.skype.com/es/" target="_blank" id="skype"></a></span>
+                       <span><a href="https://vimeo.com/" target="_blank" id="vimeo"></a></span>
+                       <span><a href="#skillstop" class="scrollerbtn"></a></span>
+                    </div>
+                <video loop muted autoplay poster="img/VideoTop.jpg">
+                <source src="img/video.mp4" type="video/webm">
+                <source src="img/video.mp4" type="video/mp4">
+                </video> 
+                <div>
+                 <img src="img/BackTop.png" class="logo_top">  
+               </div>
+                   
+          </div>
+
+        </header>
+        <section class="skills"  id="skillstop"  >
+            <div class="brandskills" >
+                 <img src="img/OurSkills.png" >  
+               </div>
+                <div  id="per85" class="c100 p85 big">
+                  <span>85%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                  <h3 class="brandtext"><a href="#" style="text-decoration: none">Web design</a></h3> 
+                </div>
+                <div  id="per65" class="c100 p85 big">
+                  <span>65%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                  <h3 class="brandtext"><a href="#" style="text-decoration: none">Branding design</a></h3> 
+                </div>
+                <div  id="per80" class="c100 p85 big">
+                  <span>80%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                  <h3 class="brandtext"><a href="#" style="text-decoration: none">Time management</a></h3> 
+                </div>
+                <div  id="per65" class="c100 p85 big">
+                  <span>65%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                  <h3 class="brandtext"><a href="#" style="text-decoration: none">Creative cloud</a></h3> 
+                </div>
+                <div  id="per85"  class="c100 p85 big">
+                  <span>85%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                  <h3 class="brandtext"><a href="#" style="text-decoration: none">Web development</a></h3> 
+                </div>
+                <span><a href="#contact" class="scrollerbtn2 "></a></span>
+        </section>       
+            <section id="contact">
+            <div class="parallax"><img src=""> <img src="img/newsletter.png"></div>
+            <div id="email"><input type="text" name="" placeholder="enter your email address"></div>
+            <div id="submitemail"><input type="submit" value="Submit"></div>
+            </section>
+    </body>
+     <footer id="footer">
+               <span><a href="https://www.facebook.com/" target="_blank" id="fb"></a></span>
+               <span><a href="https://twitter.com/?lang=es" target="_blank" id="tw"></a></span>
+               <span><a href="https://www.google.com.ar/" target="_blank" id="db"></a></span>
+            
+                <p >© 2014 Brandaloka. All rights reserved | Template by Nicolas whit help from <a style="text-decoration: none" href="https://www.w3schools.com/" target="_blank">W3Schools</a></p>
+            </div>
+            <span><a style="text-decoration: none" href="#header" id="up"> <h3><i>Go Up</i></h3></a></span>
+     
+     </footer>
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/parallax.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+    </script>
+</html>

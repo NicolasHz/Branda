@@ -1,0 +1,316 @@
+html, body{
+   font-family: 'Asap', sans-serif;
+   font-size: 100%;
+   background:#fff;
+    overflow-x:  hidden;
+
+}
+#header{
+    color: grey;
+    clear: both;
+    width:100%;
+}
+.wrap {
+    margin:0 auto;
+    width:100%;
+    transition: 1s opacity;
+    transform: translateY(-11%);
+
+}
+
+.wrap video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.logo_top{
+    transform: translateY(-92%) translateX(-10%);
+    width: 118%;
+    height: 118%;
+ }
+ #footer {
+    text-align: center;
+    clear: both;
+    width:100%;
+    height: 500px;
+    padding: 10%;
+}
+
+.header_social {
+    position: relative;
+}
+
+.header_social span {
+    left: -16%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.header_social span, .header_social a {
+    height: 32px;
+}
+
+#fb1:hover, #tw1:hover, #db1:hover, #g1:hover, #skype:hover, #vimeo:hover, {
+    opacity:0.8;
+}
+.scrollerbtn:hover, .scrollerbtn2:hover {
+    animation: none;
+}
+
+#fb1 {
+    display: block;
+    width: 32px;
+    height: 40px;
+    background: url(../img/img-sprite.png)no-repeat -245px -404px;
+    position: absolute;
+    left:1005px;
+    top: 196px;
+}
+#tw1 {
+    width: 32px;
+    height: 40px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -294px -404px;
+    position: absolute;
+    left: 1070px;
+    top: 196px;
+}
+#db1 {
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -342px -404px;
+    position: absolute;
+    left: 1130px;
+    top: 198px;
+}
+#g1 {
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -389px -405px;
+    position: absolute;
+    left: 1038px;
+    top: 252px;
+}
+#skype{
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -444px -405px;
+    position: absolute;
+    left: 1132px;
+    top: 256px;
+}
+#vimeo{
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -27px -452px;
+    position: absolute;
+    left: 1100px;
+    top: 290px;
+}
+.scrollerbtn{
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/Scroller.png)no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 850px;
+    top: 700px;
+        animation: mymove 2s infinite;
+}
+.scrollerbtn2{
+    width: 36px;
+    height: 40px;
+    display: block;
+    background: url(../img/Scroller2.png)no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 48%;
+    top: 400px;
+    animation: mymove 2s infinite;
+}
+#fb {
+    position: relative;
+    width:75px;
+    height: 75px;
+    display: inline-block;
+    background: url(../img/img-sprite.png)no-repeat -13px -310px;
+}
+#tw {
+    position: relative;
+    width:75px;
+    height: 75px;
+    display: inline-block;
+    background: url(../img/img-sprite.png)no-repeat -109px -310px;
+}
+#db{
+    position: relative;
+    width:75px;
+    height: 75px;
+    display: inline-block;
+    background: url(../img/img-sprite.png)no-repeat -215px -309px;
+}
+#up{
+    position: relative;
+    width:75px;
+    height: 75px;
+    display: inline-block;
+    background: url(../img/ScrollerUp.png)no-repeat;
+    background-size: contain;
+    top: 80px;
+    left:52%;
+}
+#up h3{
+    display: none;
+}
+#up:hover h3{
+    display: block; 
+    color: #e83a93;
+    white-space: nowrap;
+    transform: translateY(200%) translateX(-10%);
+}
+#header_mac:hover h3 , #header_book:hover h3, #header_team:hover h3, #header_about:hover h3, #header_contact:hover h3 {
+    display: block; 
+    color: white;
+    font-size:1.2em;
+    margin: 0;
+    white-space: nowrap;
+    transform: translateY(200%) translateX(-24%);
+}
+#header_mac:hover  , #header_book:hover , #header_team:hover , #header_about:hover , #header_contact:hover  {
+    filter:drop-shadow(4px 4px 5px #e83a93);
+}
+#header_mac h3, #header_book h3, #header_team h3, #header_about h3, #header_contact h3 {
+    display: none;
+}
+#header_mac {
+    width:50px;
+    height:43px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -314px -326px;
+    position: absolute;
+    left: 520px;
+    top: 266px;
+}
+#header_book {
+    width: 50px;
+    height: 48px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -383px -323px;
+    position: absolute;
+    left: 700px;
+    top: 268px;
+}
+#header_team {
+    width: 55px;
+    height: 44px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -23px -400px;
+    position: absolute;
+    left: 610px;
+    top: 550px;
+}
+#header_about {
+    width: 50px;
+    height: 43px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -99px -401px;
+    position: absolute;
+    left: 805px;
+    top: 545px;
+}
+#header_contact {
+    width: 50px;
+    height: 43px;
+    display: block;
+    background: url(../img/img-sprite.png)no-repeat -173px -400px;
+    position: absolute;
+    left: 990px;
+    top: 350px;
+}
+
+.skills{
+    transform: translateY(-140%) ;
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+     margin-bottom: -900px
+}
+.brandskills{
+    clear: both;
+    margin-right: 45%;
+    margin-left:40%;
+    margin-bottom: 10%;
+    
+}
+.brandtext{
+    transform: translateY(900%) translateX(15%) ;
+}
+
+.parallax {
+
+    background-image: url("../img/subscribe.jpg");
+    min-height: 680px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax img{
+    width: 100%;
+    position: absolute;
+    margin-top: 20px;
+}
+#email input{
+    position: relative;
+    top: -350px;
+    left: 35%;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(171, 163, 162, 0.4);
+    color:white;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+#submitemail input{
+    position: relative;
+    top: -300px;
+    left: 43%;
+    width: 180px;
+    height: 50px;
+    background-color: #e83a93;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#submitemail input:hover{
+transition: background-color 0.5s ease;
+  background-color: white;
+  color: #e83a93;
+
+}
+
+
+@keyframes mymove {
+    from { opacity:1;}
+    to {opacity: 0.5;}
+}
